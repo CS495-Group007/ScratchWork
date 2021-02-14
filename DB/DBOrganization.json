@@ -1,0 +1,173 @@
+{
+    "Users" : {
+        "Instructors" : {
+            "tavares@ua.edu" : {
+                "title" : "Dr",
+                "lastName" : "Tavares",
+                "firstName" : "Elizabeth",
+                "school" : "University of Alabama",
+                "classes" : ["111111111", "222222222", "333333333", "444444444"]
+            },
+            "TAOne" : {
+                "title" : "Mr",
+                "school" : "University of Alabama",
+                "email" : "taone@ua.edu",
+                "classes" : ["111111111", "444444444"]
+            },
+            "TATwo" : {
+                "title" : "Ms",
+                "school" : "University of Alabama",
+                "email" : "tatwo@ua.edu",
+                "classes" : ["222222222", "333333333"]
+            }
+        },
+        "Students" : {
+            "Connor Meadows" : {
+                "school" : "University of Alabama",
+                "email" : "chmeadows2@crimson.ua.edu",
+                "classes" : {
+                    "333333333" : {
+                        "Couplet One" : {
+                            "status" : "in progress",
+                            "currentResponse" : "spondee dactyl iamb"
+                        }
+                    }
+                }
+            },
+            "Nash Stokes" : {
+                "school" : "University of Alabama",
+                "email" : "lnstokes@crimson.ua.edu",
+                "classes" : {
+                    "444444444" : {
+                        "Couplet One" : {
+                            "status" : "in progress",
+                            "currentResponse" : "spondee"
+                        }
+                    }
+                }
+            },
+            "Maddie Macaulay" : {
+                "school" : "University of Alabama",
+                "email" : "mcmacaulay@crimson.ua.edu",
+                "classes" : {
+                    "111111111" : {
+                        "Sonnet One" : {
+                            "status" : "completed"
+                        },
+                        "Sonnet Two" : {
+                            "status" : "inProgress",
+                            "currentResponse" : "dactyl spondee iamb iamb trochee"
+                        }
+                    },
+                    "222222222" : {
+                        "Couplet One" : {
+                            "status" : "in progress",
+                            "currentResponse" : "spondee"
+                        }
+                    }
+                }
+            },
+            "Jeremy Tucker" : {
+                "school" : "University of Alabama",
+                "email" : "jstucker2@crimson.ua.edu",
+                "classes" : {
+                    "111111111" : {
+                        "Sonnet One" : {
+                            "status" : "completed"
+                        },
+                        "Sonnet Two" : {
+                            "status" : "in progress",
+                            "currentResponse" : "dactyl spondee iamb iamb trochee"
+                        }
+                    },
+                    "222222222" : {
+                        "Couplet One" : {
+                            "status" : "in progress",
+                            "currentResponse" : "spondee"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Universities" : {
+        "The University of Alabama" : {
+            "classes" : {
+                "111111111" : {
+                    "courseTitle" : "Shakespeare",
+                    "poems" : {
+                        "Sonnet One" : {
+                            "blocksPerLine" : 5,
+                            "lineGroupLength" : 4,
+                            "content" : ["Shall I compare thee to a summer's day","thou art more lovely and more temperate", "rough..."],
+                            "answer" : [
+                                ["iamb","dactyl","spondee"],["trochee","dactyl","spondee"], ["rough..."]
+                            ]
+                        }
+                    },
+                    "adminInstructor" : "tavares@ua.edu",
+                    "instructors" : ["tavares@ua.edu", "taone@ua.edu"],
+                    "students" : {
+                        "mcmacaulay@crimson.ua.edu" : {
+                            "Sonnet One" : {
+                                "status" : "completed"
+                            },
+                            "Sonnet Two" : {
+                                "status" : "in progress",
+                                "currentResponse" : [["iamb","EMPTY","spondee"],["trochee","dactyl","spondee"], ["rough..."]]
+                            }
+                        },
+                        "jstucker2@crimson.ua.edu" : {
+                            "Sonnet One" : {
+                                "status" : "completed"
+                            },
+                            "Sonnet Two" : {
+                                "status" : "in progress",
+                                "currentResponse" : "dactyl spondee iamb iamb trochee"
+                            }
+                        }
+                    }
+                },
+                "222222222" : {
+                    "instructors" : ["tavares@ua.edu", "tatwo@ua.edu"],
+                    "students" : {
+                        "jstucker2@crimson.ua.edu" : {
+                            "Couplet One" : {
+                                "status" : "in progress",
+                                "currentResponse" : "spondee"
+                            }
+                        },
+                        "mcmacaulay@crimson.ua.edu" : {
+                            "Couplet One" : {
+                                "status" : "in progress",
+                                "currentResponse" : "spondee"
+                            }
+                        }
+                    }
+                },
+                "333333333" : {
+                    "instructors" : ["tavares@ua.edu", "tatwo@ua.edu"],
+                    "students" : {
+                        "chmeadows2@crimson.ua.edu" : {
+                            "Couplet One" : {
+                                "status" : "in progress",
+                                "currentResponse" : "spondee"
+                            }
+                        }
+                    }
+                },
+                "444444444" : {
+                    "instructors" : ["tavares@ua.edu", "taone@ua.edu"],
+                    "students" : {
+                        "lnstokes@crimson.ua.edu" : {
+                            "Couplet One" : {
+                                "status" : "in progress",
+                                "currentResponse" : "spondee"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
