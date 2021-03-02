@@ -6,39 +6,13 @@
                 "lastName": "Tavares",
                 "firstName": "Elizabeth",
                 "school": "University of Alabama",
-                "classes": {
-                    "111111111": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "222222222": {
-                        "instructors": ["etavares@ua.edu", "tatwo@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "333333333": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "444444444": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    }
-                }
+                "classes": ["111111111", "222222222", "333333333", "444444444"]
             },
             "TAOne": {
                 "title": "Mr",
                 "school": "University of Alabama",
                 "email": "taone@ua.edu",
-                "classes": {
-                    "111111111": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "444444444": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    }
-                }
+                "classes": []
             },
             "TATwo": {
                 "title": "Ms",
@@ -127,27 +101,47 @@
                     }
                 }
             }
-        },
-        "Universities": {
-            "The University of Alabama": {
-                "classes": {
-                    "111111111": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "222222222": {
-                        "instructors": ["etavares@ua.edu", "tatwo@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "333333333": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    },
-                    "444444444": {
-                        "instructors": ["etavares@ua.edu", "taone@ua.edu"],
-                        "students": ["jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"]
-                    }
+        }
+    },
+    "Universities": {
+        "The University of Alabama": {
+            "classes": {
+                "111111111": {
+                    "instructors": ["etavares@ua.edu", "taone@ua.edu"],
+                    "pendingInstructors" : [],
+                    "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"],
+                    "pendingStudents" : []
+                },
+                "222222222": {
+                    "instructors": ["etavares@ua.edu", "tatwo@ua.edu"],
+                    "pendingInstructors" : [],
+                    "students": ["chmeadows2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"],
+                    "pendingStudents" : []
+                },
+                "333333333": {
+                    "instructors": ["etavares@ua.edu", "taone@ua.edu"],
+                    "pendingInstructors" : [],
+                    "students": ["chmeadows2@crimson.ua.edu", "jstucker2@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"],
+                    "pendingStudents" : []
+                },
+                "444444444": {
+                    "instructors": ["etavares@ua.edu", "taone@ua.edu"],
+                    "pendingInstructors" : [],
+                    "students": ["jstucker2@crimson.ua.edu", "lnstokes@crimson.ua.edu", "mcmacaulay@crimson.ua.edu"],
+                    "pendingStudents" : []
                 }
+            }
+        }
+    },
+    "Poems": {
+        "Alexander Pope": {
+            "Couplet One": {
+                "text": ["Line 1", "Line2", "line3"],
+                "solution": [
+                    [],
+                    [],
+                    []
+                ]
             }
         }
     }
