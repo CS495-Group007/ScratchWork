@@ -1,0 +1,21 @@
+Entity: Instructor
+Email [PK], title, lastName, firstName, school, classes (list/array)
+
+Entity: Student
+Email [PK], lastName, firstName, school, classes (list/array)
+
+Entity: University
+Generated PK, Name, Instructors (list/array), Students (list/array), Pending Instructors (list/array), Pending Students (list/array)
+
+Entity: Class 
+Generated PK, Course Title, Primary Instructor(s), Secondary Instructor(s), Students, Students (list/array), Pending Instructors (list/array), Pending Students (list/array)
+
+Entity: Poem 
+Generated PK, Author, Title, Content (list/array), Solution (list/array/matrix)
+
+Entity: PoemInProgress
+Matched PK to corresponding Poem entry, Student (reference to Student's PK), CurrentResponse (list/array/matrix)
+
+
+With this structure we could perform joins to get all the poems by a single author, the statuses of all of the students in a class, the 
+statuses of all the students of an instructor, etc. 
