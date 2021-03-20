@@ -1,6 +1,8 @@
 Entity: Instructor
 Email [PK], title, lastName, firstName, school, classes (list/array)
 
+Entity: InstructorTo
+
 Entity: Student
 Email [PK], lastName, firstName, school, classes (list/array)
 
